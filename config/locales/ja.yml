@@ -1,0 +1,21 @@
+ja:
+    activerecord:
+        attributes:
+            item: #モデル名
+              name: 商品名
+              description: 商品説明
+              item_image_id: 商品画像
+              price: 税抜価格
+            genre:
+              name: ジャンル名
+            customer:
+              first_name: 姓
+              last_name: 名
+              kana_first_name: カナ(セイ)
+              kana_last_name: カナ(メイ)
+              email: メールアドレス
+              postcode: 郵便番号(ハイフンなし)
+              address: 住所
+              phone_number: 電話番号
+              password: パスワード(6文字以上
+              password_confirmation: パスワード(確認)
